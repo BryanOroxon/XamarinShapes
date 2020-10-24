@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinShapes.MainPage">
+
+    <StackLayout>
+        <Line X1="0"
+          Y1="20"
+          X2="450"
+          Y2="35"
+          StrokeLineCap="Round"
+          Stroke="Orange"
+          StrokeThickness="12" />
+        <Polygon Points="30,10 60,70 10,50"
+         Fill="Blue"
+         Stroke="Green"
+         StrokeThickness="5" />
+        <Path Stroke="Black"
+      StrokeThickness="1"
+      Aspect="Uniform"
+      HorizontalOptions="Center"
+      HeightRequest="100"
+      WidthRequest="100"
+      Data="M19.723022,0L25.029022,0 32,8.1200027 32,13.708 25.029022,21.479 19.643005,21.479 16.554993,17.635998 21.703003,11.438 24.871002,15.105 28.515015,10.739002 24.792023,6.4610023 12.277008,21.479 6.8110046,21.479 0,13.621002 0,8.1200027 6.9700012,0.088001251 12.119019,0.088001251 15.365997,4.0170021 10.376007,10.128002 7.0500183,6.5489998 3.4840088,10.827 7.2860107,15.280003z">
+            <Path.RenderTransform>
+                <RotateTransform CenterX="0"
+                         CenterY="0"
+                         Angle="0" />
+            </Path.RenderTransform>
+        </Path>
+
+        <Path Stroke="Black"
+      StrokeThickness="1"
+              Fill="Blue"
+      Aspect="Uniform"
+      HorizontalOptions="Center"
+      HeightRequest="100"
+      WidthRequest="100"
+      Data="M13.908992,16.207977L32.000049,16.207977 32.000049,31.999985 13.908992,30.109983z M0,16.207977L11.904009,16.207977 11.904009,29.900984 0,28.657984z M11.904036,2.0979624L11.904036,14.202982 2.7656555E-05,14.202982 2.7656555E-05,3.3409645z M32.000058,0L32.000058,14.203001 13.909059,14.203001 13.909059,1.8890382z">
+            <Path.RenderTransform>
+                <RotateTransform CenterX="0"
+                         CenterY="0"
+                         Angle="0" />
+            </Path.RenderTransform>
+        </Path>
+        <Line X1="0"
+          Y1="20"
+          X2="450"
+          Y2="35"
+          StrokeLineCap="Round"
+          Stroke="Orange"
+          StrokeThickness="25" />
+    </StackLayout>
+    
+</ContentPage>
